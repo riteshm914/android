@@ -5,6 +5,6 @@ import javax.inject.Inject
 
 class ApiHelperImpl @Inject constructor(private val apiService: ApiService) : ApiHelper {
 
-    override suspend fun getFacts(): List<FactModel> = apiService.getFacts()
+    override suspend fun getFacts(): FactModel = apiService.getFacts()
 
 }

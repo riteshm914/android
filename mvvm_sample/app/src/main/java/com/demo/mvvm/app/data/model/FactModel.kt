@@ -7,7 +7,7 @@ data class FactModel(
     @Json(name  = "title")
     val title: String = "",
     @Json(name = "rows")
-    val rows: Rows
+    val rows: List<Rows>?
 )
 
 data class Rows(
