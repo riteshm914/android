@@ -13,4 +13,54 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+
+    <!--    Poppins Regular Font Style    -->
+
+    <!-- Poppins Regular Font Style -->
+    <style name="TextAppearancePoppinsRegular" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/poppins_regular_font</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- Regular Small Font Style -->
+    <style name="TextAppearancePoppinsRegular.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Regular Medium Font Style -->
+    <style name="TextAppearancePoppinsRegular.Medium">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Regular Large Font Style -->
+    <style name="TextAppearancePoppinsRegular.Large">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <!--    Poppins Light Font Style    -->
+
+    <!-- Poppins Light Font Style -->
+    <style name="TextAppearancePoppinsLight" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/poppins_light_font</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- Light Small Font Style -->
+    <style name="TextAppearancePoppinsLight.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Light Medium Font Style -->
+    <style name="TextAppearancePoppinsLight.Medium">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Light Large Font Style -->
+    <style name="TextAppearancePoppinsLight.Large">
+        <item name="android:textSize">22sp</item>
+    </style>
+
 </resources>
