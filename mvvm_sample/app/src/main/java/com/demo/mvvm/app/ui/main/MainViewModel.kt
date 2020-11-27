@@ -7,10 +7,12 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.demo.mvvm.app.data.model.FactModel
 import com.demo.mvvm.app.data.repository.MainRepository
+import com.demo.mvvm.app.utils.Mockable
 import com.demo.mvvm.app.utils.Resource
 
 import kotlinx.coroutines.launch
 
+@Mockable
 class MainViewModel @ViewModelInject constructor(
     private val mainRepository: MainRepository
 ) : ViewModel() {
