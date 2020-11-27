@@ -74,6 +74,7 @@ class MainActivity : BaseActivity() {
                 Status.ERROR -> {
                     hideLoading()
                     Toast.makeText(this, it.message, Toast.LENGTH_LONG).show()
+                    binding.factList.visibility = View.GONE
                 }
             }
         })
